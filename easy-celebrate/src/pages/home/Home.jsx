@@ -1,35 +1,17 @@
-import React from 'react'
-import "./home.css"
+import React from 'react';
+import "./home.css";
+
 
 function Home() {
     return (
         <div>
-            <div className="login">
-                <div className="loginWrapper">
-                    <div className="loginLeft">
-                        <h3 className="loginLogo">Welcome to<span style={{ color: "orange" }}> Vikriti</span></h3>
-                        <span className="loginDesc">
-                        United in Faith, Boundless in Worship: Embracing the Divine Across Distances
-                        </span>
-                    </div>   
-                    <div className="loginRight">
-                        <div className="loginBox">
-                            <input placeholder="Email" className="loginInput" />
-                            <input placeholder="Password" className="loginInput" />
-                            <button className="loginButton">Log In</button>
-                            <span className="loginForgot">Forgot Password?</span>
-                            <button className="loginRegisterButton">
-                                Create a New Account
-                            </button>
-                        </div>
-                    </div>
-                </div>
-            </div>
+          Home
         </div>
-    )
+    );
 }
 
-export default Home
+export default Home;
+
 
 
 
