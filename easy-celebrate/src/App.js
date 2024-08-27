@@ -9,6 +9,8 @@ import About from './pages/about/About';
 import Contact from './pages/contact/Contact';
 import Festival from './pages/Festival/Festival';
 import Ocassion from './pages/ocassion/Ocassion';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 function App() {
   return (
